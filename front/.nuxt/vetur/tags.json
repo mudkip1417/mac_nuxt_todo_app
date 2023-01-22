@@ -1,0 +1,17 @@
+{
+  "AddTodo": {
+    "description": "Auto imported from components/AddTodo.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "TodoList": {
+    "description": "Auto imported from components/TodoList.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
