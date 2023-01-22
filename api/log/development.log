@@ -1,0 +1,83 @@
+Started GET "/" for ::1 at 2023-01-22 18:28:29 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 840)
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 7190)
+
+
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTodos (20230122092908)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "user_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230122092908"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-01-22 09:29:44.121039"], ["updated_at", "2023-01-22 09:29:44.121039"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-01-22 18:39:23 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 732)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 5893)
+
+
+Started GET "/" for ::1 at 2023-01-22 18:39:25 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.9ms | Allocations: 454)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 1266)
+
+
+Started GET "/" for ::1 at 2023-01-22 18:39:25 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 16)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 262)
+
+
+Started GET "/" for ::1 at 2023-01-22 18:39:25 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 260)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-22 18:39:34 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/KICS16/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 260)
+
+
+Started GET "/v1/todos" for 127.0.0.1 at 2023-01-22 18:40:13 +0900
+Processing by V1::TodosController#index as HTML
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/v1/todos_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1624)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2023-01-22 18:40:13 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230122094032)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "uid" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230122094032"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/v1/todos" for 127.0.0.1 at 2023-01-22 18:42:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by V1::TodosController#index as HTML
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/v1/todos_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 20335)
+
+
